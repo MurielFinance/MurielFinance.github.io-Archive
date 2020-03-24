@@ -166,6 +166,7 @@ input.button:hover {
     margin: 0px;
     display: block;
     left: 0px;
+    border-radius: 8px;
     width: calc(100% - 24px);
   }
   #mc_embed_signup div.clear {
