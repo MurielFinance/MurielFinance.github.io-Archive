@@ -3,6 +3,10 @@
   src: url("Inter-Regular.otf") format("opentype");
 }
 @font-face {
+  font-family: 'InterBold';
+  src: url("Inter-Bold.otf") format("opentype");
+}
+@font-face {
   font-family: 'InterExtraBold';
   src: url("Inter-ExtraBold.otf") format("opentype");
 }
@@ -64,7 +68,7 @@ body {
 }
 
 .prompt {
-  font-family: 'InterExtraBold';
+  font-family: 'InterBold';
   margin: 40px auto;
   color: white;
   font-weight: 600;
@@ -90,7 +94,7 @@ body {
   max-width: none;
   position: absolute;
   top: 0px;
-  margin: 8px 0 8px 6px;
+  margin: 8px 0 8px 8px;
   display: inline-block;
   height: 49px;
   color: white;
@@ -117,7 +121,7 @@ body {
   border: 1px solid #00FB88;
   border-radius: 8px;
   color: #00FB88;
-  margin: 8px 6px 8px 0;
+  margin: 8px 8px 8px 0;
   font-size: 17px;
   height: 49px;
   font-weight: 600;
