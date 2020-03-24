@@ -21,7 +21,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   background-color: black;
   min-height: 100vh;
   max-width: 100%;
@@ -47,7 +47,7 @@ body {
   font-family: 'Inter';
   color: white;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 24px;
   color: white;
   padding-bottom: 40px;
 }
@@ -57,7 +57,7 @@ body {
 }
 .spacer-dot {
   display: inline-block;
-  margin: 0 12px;
+  margin: 0 10px;
   color: white;
   font-size: 40px;
   line-height: 40px;
@@ -69,7 +69,7 @@ body {
   color: white;
   font-weight: 600;
   text-align: center;
-  font-size: 56px;
+  font-size: 48px;
 }
 
 #mc_embed_signup {
@@ -79,9 +79,9 @@ body {
   height: 60px;
   position: relative;
 }
-#mc_embed_signup input.email {
+#mc_embed_signup input.email.emailinput {
   font-size: 22px;
-  width: calc(100% - 170px);
+  width: calc(100% - 190px);
   position: absolute;
   top: 0px;
   display: inline-block;
@@ -126,7 +126,7 @@ input.button:hover {
 
 .footnotes {
   text-align: center;
-  padding: 50px 20px 0px 20px;
+  padding: 50px 40px 0px 40px;
   color: white;
   font-size: 16px;
   opacity: 0.5;
@@ -136,6 +136,7 @@ input.button:hover {
 @media (max-width: 900px) {
   .container {
     background-color: #141414;
+    padding-bottom: 0px;
   }
   .info-block {
     padding: 40px;
@@ -147,7 +148,7 @@ input.button:hover {
     width: 100%;
     margin-bottom: 46px;
   }
-  #mc_embed_signup input.email {
+  #mc_embed_signup input.email.emailinput {
     display: block;
     left: 0px;
     width: calc(100% - 24px);
@@ -159,5 +160,17 @@ input.button:hover {
     top: 60px;
     left: 0px;
     width: 100%;
+  }
+
+  .spacer {
+    padding-top: 20px;
+  }
+
+  .prompt {
+    font-size: 36px;
+  }
+
+  .footnotes {
+    padding: 50px 0;
   }
 }
