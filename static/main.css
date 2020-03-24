@@ -81,6 +81,9 @@ body {
   height: 64px;
   position: relative;
 }
+#mc_embed_signup form.validate {
+  padding: 10px 0;
+}
 #mc_embed_signup input.email.emailinput {
   font-size: 22px;
   width: calc(100% - 210px);
