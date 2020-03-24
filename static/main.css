@@ -82,6 +82,8 @@ body {
 #mc_embed_signup input.email.emailinput {
   font-size: 22px;
   width: calc(100% - 190px);
+  min-width: none;
+  max-width: none;
   position: absolute;
   top: 0px;
   margin: 0;
