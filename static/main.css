@@ -148,12 +148,12 @@ input.button:hover {
 @media (max-width: 900px) {
   .container {
     background-image: none;
-    background-color: #141414;
-    padding-bottom: 0px;
+    background-color: black;
+    padding-bottom: 20px;
   }
   .info-block {
-    padding: 40px;
-    width: calc(100% - 80px);
+    padding: 30px;
+    width: calc(90% - 60px);
     max-width: none;
   }
 
