@@ -84,6 +84,7 @@ body {
   width: calc(100% - 190px);
   position: absolute;
   top: 0px;
+  margin: 0;
   display: inline-block;
   height: 49px;
   color: white;
