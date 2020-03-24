@@ -73,10 +73,12 @@ body {
 }
 
 #mc_embed_signup {
+  background-color: black;
+  border-radius: 12px;
   display: block;
   margin: auto;
   width: 100%;
-  height: 60px;
+  height: 64px;
   position: relative;
 }
 #mc_embed_signup input.email.emailinput {
@@ -85,7 +87,7 @@ body {
   max-width: none;
   position: absolute;
   top: 0px;
-  margin: 0;
+  margin: 8px 0 8px 6px;
   display: inline-block;
   height: 49px;
   color: white;
@@ -108,10 +110,11 @@ body {
   position: absolute;
   top: 0px;
   right: 0px;
-  background-color: #141414;
+  background-color: black;
   border: 1px solid #00FB88;
   border-radius: 8px;
   color: #00FB88;
+  margin: 8px 6px 8px 0;
   font-size: 17px;
   height: 49px;
   font-weight: 600;
@@ -137,6 +140,7 @@ input.button:hover {
 
 @media (max-width: 900px) {
   .container {
+    background-image: none;
     background-color: #141414;
     padding-bottom: 0px;
   }
@@ -149,8 +153,10 @@ input.button:hover {
   #mc_embed_signup {
     width: 100%;
     margin-bottom: 46px;
+    background-color: transparent;
   }
   #mc_embed_signup input.email.emailinput {
+    margin: 0px;
     display: block;
     left: 0px;
     width: calc(100% - 24px);
@@ -160,8 +166,10 @@ input.button:hover {
   }
   #mc_embed_signup div.clear input.button {
     top: 60px;
+    margin: 0px;
     left: 0px;
     width: 100%;
+    background-color: #141414;
   }
 
   .spacer {
