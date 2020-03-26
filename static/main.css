@@ -24,7 +24,7 @@ body {
   background-image: url("graph.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: center;
   padding-bottom: 40px;
   background-color: black;
   min-height: 100vh;
